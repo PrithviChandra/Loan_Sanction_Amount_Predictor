@@ -13,3 +13,4 @@ Future Scope:
 - Data can be improved to enhance representation especially for feature like gender etc
 - Data quality can be enhanced
 - The Flask app ca integrate a database to store user provided data for R&D 
+- Trained and tested using gradient boost regressor, random forest regressor, neural network, linear regressor with and without Principal Component Analysis. The best performance was rendered by random forest regressor

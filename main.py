@@ -13,8 +13,8 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_KEY')
 Bootstrap5(app)
 
-model = joblib.load('random_forest_model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('saved_model/random_forest_model.pkl')
+scaler = joblib.load('saved_model/scaler.pkl')
 
 @app.route('/',methods=['GET','POST'])
 def index():

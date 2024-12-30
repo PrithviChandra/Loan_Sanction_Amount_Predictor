@@ -1,6 +1,8 @@
 # Loan_Sanction_Amount_Predictor
 An application to predict loan amount based on customer's personal data, built using a random forest regression model
 
+Demo: https://loan-sanction-amount-predictor.onrender.com
+
 - Data was collected from Kaggle, Contains ~30000 records. The data is not completely authentic.
 - Data was preprocessed by removing NaN, outlier detection and removal using z-score technique, typecasting, reducing skewness and scaled using standard scaler. 5 models (Gradient Boost, Random Forest, Linear Regression, PCA based linear regression, Neural Network) was tried to fit the model to predict eligible loan amount based on the user's personal data. 
 - Random Forest model performed the best with a MSE of 0.04 on the test data.

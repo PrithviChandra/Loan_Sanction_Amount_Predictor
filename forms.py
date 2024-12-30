@@ -21,7 +21,7 @@ class PersonalData(FlaskForm):
     prop_locn = RadioField("Property Location", choices=[(0,'Semi-Urban'),(1,'Rural'),(3,'Urban')],default='3',validators=[DataRequired()],description="Choose the location of the collateral property")
     co_applicant = RadioField("Have co-applicant",choices=[(0,'No'),(1,'Yes')],default='0',validators=[DataRequired()],description="Do you have a suitable co-applicant")
     prop_price = DecimalField("Price of the property in USD",validators=[DataRequired()],description="Specify the price of the collateral property in USD")
-    submit = SubmitField("Submit Post")
+    submit = SubmitField("Submit Details")
 
 
 
